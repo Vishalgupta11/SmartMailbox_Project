@@ -8,7 +8,7 @@
 // ------------------------------------------ WiFi & Web Server Configuration ------------------------------------------
 // We will load credentials from memory, but define the AP details for configuration mode
 #define AP_SSID "SmartMailBox_Setup"
-#define AP_PASSWORD "********" // Password for the setup hotspot
+#define AP_PASSWORD "12345678" // Password for the setup hotspot
 
 // Create objects for the web server, DNS server, and preferences
 WebServer server(80);
